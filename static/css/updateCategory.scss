@@ -1,0 +1,34 @@
+/*
+* @Author: 宏达
+* @Date:   2017-11-01 15:39:30
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-11-01 15:41:15
+*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;
+}
+.panel{
+	width:300px;
+	height:300px;
+	margin:100px auto;
+	padding:30px 20px;
+	border:2px solid #ccc;
+	animation:donghua 0.5s;
+}
+.formgroup{
+	padding:20px 0;
+}
+.formgroup input{
+	padding:2px 3px;
+}
+@keyframes donghua{
+	0%{
+	  transform:scale(0,0) rotateZ(360deg);
+	}
+	100%{
+	  transform:scale(1,1) rotateZ(0deg);
+	}
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>main</title>
+	<link rel="stylesheet" href="../static/css/main.scss">
+	<script src="../static/js/jquery-3.2.1.js"></script>
+</head>
+<body>
+	<main>
+		<div class="top">
+			<div class="touxiang"></div>
+			<h3><marquee behavior="" direction="">小姐，借一个吻</marquee></h3>
+			<ul class="func">
+				<li>首页</li>
+				<li>注册</li>
+				<li>退出</li>
+			</ul>
+		</div>
+		<div class="leftnav">
+			<h3>后台管理</h3>
+			<ul class="nav">
+				<div class="title">商品分类</div>
+				<li><a href="addCategory.php" target="right">添加</a></li>
+				<li><a href="showCategory.php" target="right">查看</a></li>
+				<li>修改</li>
+			</ul>
+			<ul class="nav">
+				<div class="title">商品分类</div>
+				<li>添加</li>
+				<li>删除</li>
+				<li>修改</li>
+			</ul>
+			<ul class="nav">
+				<div class="title">商品分类</div>
+				<li>添加</li>
+				<li>删除</li>
+				<li>修改</li>
+			</ul>
+		</div>
+		<div class="content">
+			<iframe src="" frameborder="0" name="right"></iframe>
+		</div>
+	</main>
+	<script>
+		$(function(){
+			$('.title').on('click',function(){
+				$(this).nextAll().stop();
+				$(this).nextAll().slideToggle();
+			})
+		})
+	</script>
+</body>
+</html>

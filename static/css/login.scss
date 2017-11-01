@@ -1,0 +1,50 @@
+/*
+* @Author: 宏达
+* @Date:   2017-10-31 11:50:53
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-11-01 19:12:16
+*/
+
+*{
+	margin:0;
+	padding:0;
+	lists-tyle:none;
+	box-sizing:border-box;
+}
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+body{
+	background:#1CAFED;
+}
+.content{
+	width:300px;
+	height:300px;
+	margin:100px auto;
+	padding:30px 0;
+	border:2px solid #ccc;
+	animation:donghua 0.5s;
+}
+form{
+	text-align:center;
+}
+h3{
+	color:#000;
+	padding:20px 0;
+}
+.formgroup{
+	padding:10px 0;
+}
+.formgroup input{
+	padding:2px 3px;
+}
+@keyframes donghua{
+	0%{
+	  transform:scale(0,0) rotateZ(360deg);
+	}
+	100%{
+	  transform:scale(1,1) rotateZ(0deg);
+	}
+}

@@ -1,0 +1,33 @@
+/*
+* @Author: 宏达
+* @Date:   2017-10-31 16:01:57
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-10-31 23:05:47
+*/
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;
+}
+.content{
+	width:300px;
+	height:300px;
+	margin:100px auto;
+	padding:30px 0;
+	border:2px solid #ccc;
+	animation:donghua 0.5s;
+	text-align:center;
+}
+.contents{
+	margin-top:100px;
+}
+@keyframes donghua{
+	0%{
+	  transform:scale(0,0) rotateZ(360deg);
+	}
+	100%{
+	  transform:scale(1,1) rotateZ(0deg);
+	}
+}

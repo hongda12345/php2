@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>updateCategory</title>
+	<link rel="stylesheet" href="../static/css/updateCategory.scss">
+</head>
+<body>
+	<div class="panel">
+    <form action="updateCategory.php" method="post">
+        <div class="formgroup">
+            <label for="">父级栏目</label>
+            <select name="pid" id="">
+                <option value="0">一级栏目</option>
+                <?php echo $option;?>
+            </select>
+        </div>
+        <div class="formgroup">
+            <label for="">栏目名称</label>
+            <input type="text" name="cname" value="<?php echo $cname;?>">
+        </div>
+        <div class="formgroup">
+            <input type="hidden" name="cid" value="<?php echo $cid;?>">
+        </div>
+        <div class="formgroup">
+            <input type='submit' name="sub" value="submit">
+        </div>
+    </form>
+    </div>
+</body>
+</html>

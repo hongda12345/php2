@@ -1,0 +1,116 @@
+/*
+* @Author: 宏达
+* @Date:   2017-10-31 16:16:09
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-11-01 19:35:38
+*/
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+    box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+}
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+body{
+	background:#1A94D7;
+}
+.top{
+	width:100%;
+	height:70px;
+	background:#45aafa;
+	padding:10px 64px;
+	line-height:50px;
+	text-align:center;
+}
+.leftnav{
+	width:180px;
+	background:#fff;;
+	position:absolute;
+    top:70px;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:30px 15px;
+    text-align:center;
+    border:5px solid #0F76AF;
+    border-right:none;
+}
+.content{
+    background:#fff;
+	position:absolute;
+	top:70px;
+	left:180px;
+	right:0;
+	bottom:0;
+	border:5px solid #0F76AF;
+}
+.content iframe{
+	width:100%;
+	height:100%;
+}
+.top .touxiang{
+	width:50px;
+	height:50px;
+	background:url('../img/qqtouxiang.png') center/cover;
+	border-radius:50%;
+	float:left;
+	margin-right:5px;
+}
+.top h3{
+	float:left;
+	margin-right:50px;
+}
+.func li{
+	width:50px;
+	height:30px;
+	background:#ccc;
+	margin-top:10px;
+	float:left;
+	margin-right:30px;
+	border-radius:5px;
+	text-align:center;
+	line-height:30px;
+	font-size:14px;
+	color:#fff;
+}
+.leftnav .nav{
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+	font-size:18px;
+	padding:10px 0;
+	border-bottom:1px solid #fff;
+}
+.title{
+	cursor:pointer;
+	background:#5EB0E2;
+	border-radius:3px;
+	color:#0d378f;
+}
+.leftnav h3{
+	margin-bottom:20px;
+	color:#294D98;
+	background:#B6E0F8;
+	border-radius:5px;
+}
+.leftnav .nav li{
+	width:100%;
+	height:auto;
+	font-size:16px;
+	color:#15216c;
+	margin-top:5px;
+	display:none;
+	cursor:pointer;
+	background:#C5E4F8;
+}
+.leftnav a{
+	color:#15216c;
+}
